@@ -2,6 +2,7 @@
 using AnimalShallow = DesignPatternsInCSharp.DesignPatterns.PrototypeShallow;
 using AnimalDeep = DesignPatternsInCSharp.DesignPatterns.PrototypeDeep;
 using DesignPatternsInCSharp.DesignPatterns.Singleton;
+using DesignPatternsInCSharp.DesignPatterns.FactoryMethod;
 
 //Console.WriteLine("---BEGIN SINGLETON---");
 //Console.WriteLine(SingletonExample.Instance.message);
@@ -30,3 +31,8 @@ using DesignPatternsInCSharp.DesignPatterns.Singleton;
 //Console.WriteLine("Original " + oAnimal.Characteristics.Color);
 //Console.WriteLine("Cloned " + oAnimalClone.Characteristics.Color);
 //Console.WriteLine("---END PROTOTYPE DEEP---");
+
+//Console.WriteLine("---BEGIN FACTORY METHOD---");
+//var drink = BeverageMaker.make(BeverageMaker.BEER);
+//Console.WriteLine(drink.HowMuchItIntoxicatesMe());
+//Console.WriteLine("---END FACTORY METHOD---");

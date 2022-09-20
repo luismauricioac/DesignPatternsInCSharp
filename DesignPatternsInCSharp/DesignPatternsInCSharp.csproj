@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DesignPatterns\FactoryMethod\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DesignPatterns\FactoryMethod\" />
+  </ItemGroup>
 </Project>
