@@ -13,6 +13,7 @@
     <None Remove="DesignPatterns\Mediator\" />
     <None Remove="DesignPatterns\State\" />
     <None Remove="DesignPatterns\Composite\" />
+    <None Remove="DesignPatterns\DependencyInjection\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DesignPatterns\FactoryMethod\" />
@@ -20,5 +21,6 @@
     <Folder Include="DesignPatterns\Mediator\" />
     <Folder Include="DesignPatterns\State\" />
     <Folder Include="DesignPatterns\Composite\" />
+    <Folder Include="DesignPatterns\DependencyInjection\" />
   </ItemGroup>
 </Project>
