@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <None Remove="DesignPatterns\FactoryMethod\" />
+    <None Remove="DesignPatterns\Strategy\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DesignPatterns\FactoryMethod\" />
+    <Folder Include="DesignPatterns\Strategy\" />
   </ItemGroup>
 </Project>

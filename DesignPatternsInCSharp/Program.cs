@@ -3,6 +3,7 @@ using AnimalShallow = DesignPatternsInCSharp.DesignPatterns.PrototypeShallow;
 using AnimalDeep = DesignPatternsInCSharp.DesignPatterns.PrototypeDeep;
 using DesignPatternsInCSharp.DesignPatterns.Singleton;
 using DesignPatternsInCSharp.DesignPatterns.FactoryMethod;
+using DesignPatternsInCSharp.DesignPatterns.Strategy;
 
 //Console.WriteLine("---BEGIN SINGLETON---");
 //Console.WriteLine(SingletonExample.Instance.message);
@@ -36,3 +37,10 @@ using DesignPatternsInCSharp.DesignPatterns.FactoryMethod;
 //var drink = BeverageMaker.make(BeverageMaker.BEER);
 //Console.WriteLine(drink.HowMuchItIntoxicatesMe());
 //Console.WriteLine("---END FACTORY METHOD---");
+
+//Console.WriteLine("---BEGIN STRATEGY---");
+//var context = new DrunkenStrategiesContext();
+//context.Seduce(DrunkenBehaviorsEnum.EyeWinking);
+//context.Seduce(DrunkenBehaviorsEnum.InviteABeer);
+//context.Seduce(DrunkenBehaviorsEnum.PutOnAGallantFace);
+//Console.WriteLine("---END STRATEGY---");
