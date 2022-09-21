@@ -4,6 +4,7 @@ using AnimalDeep = DesignPatternsInCSharp.DesignPatterns.PrototypeDeep;
 using DesignPatternsInCSharp.DesignPatterns.Singleton;
 using DesignPatternsInCSharp.DesignPatterns.FactoryMethod;
 using DesignPatternsInCSharp.DesignPatterns.Strategy;
+using DesignPatternsInCSharp.DesignPatterns.Mediator;
 
 //Console.WriteLine("---BEGIN SINGLETON---");
 //Console.WriteLine(SingletonExample.Instance.message);
@@ -44,3 +45,14 @@ using DesignPatternsInCSharp.DesignPatterns.Strategy;
 //context.Seduce(DrunkenBehaviorsEnum.InviteABeer);
 //context.Seduce(DrunkenBehaviorsEnum.PutOnAGallantFace);
 //Console.WriteLine("---END STRATEGY---");
+
+//Console.WriteLine("---BEGIN MEDIATOR---");
+//Mediator mediator = new Mediator();
+//IColleague oUser = new User(mediator);
+//IColleague oAdmin = new UserAdmin(mediator);
+//IColleague oAdmin2 = new UserAdmin(mediator);
+//mediator.Add(oUser);
+//mediator.Add(oAdmin);
+//mediator.Add(oAdmin2);
+//oUser.Communicate("Houston, we have a problem");
+//Console.WriteLine("---END MEDIATOR---");
