@@ -12,11 +12,13 @@
     <None Remove="DesignPatterns\Strategy\" />
     <None Remove="DesignPatterns\Mediator\" />
     <None Remove="DesignPatterns\State\" />
+    <None Remove="DesignPatterns\Composite\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DesignPatterns\FactoryMethod\" />
     <Folder Include="DesignPatterns\Strategy\" />
     <Folder Include="DesignPatterns\Mediator\" />
     <Folder Include="DesignPatterns\State\" />
+    <Folder Include="DesignPatterns\Composite\" />
   </ItemGroup>
 </Project>
