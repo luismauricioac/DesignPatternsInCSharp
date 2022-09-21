@@ -5,6 +5,7 @@ using DesignPatternsInCSharp.DesignPatterns.Singleton;
 using DesignPatternsInCSharp.DesignPatterns.FactoryMethod;
 using DesignPatternsInCSharp.DesignPatterns.Strategy;
 using DesignPatternsInCSharp.DesignPatterns.Mediator;
+using DesignPatternsInCSharp.DesignPatterns.State;
 
 //Console.WriteLine("---BEGIN SINGLETON---");
 //Console.WriteLine(SingletonExample.Instance.message);
@@ -56,3 +57,23 @@ using DesignPatternsInCSharp.DesignPatterns.Mediator;
 //mediator.Add(oAdmin2);
 //oUser.Communicate("Houston, we have a problem");
 //Console.WriteLine("---END MEDIATOR---");
+
+//Console.WriteLine("---BEGIN STATE---");
+//ServerContext oServer = new ServerContext();
+//oServer.State = new AvailableServerState();
+//oServer.attendRequest();
+
+//oServer.State = new OverloadedServerState();
+//oServer.attendRequest();
+//oServer.attendRequest();
+
+//oServer.State = new OvercrowdedServerState();
+//oServer.attendRequest();
+//oServer.attendRequest();
+
+//oServer.State = new FallenServerState();
+//oServer.attendRequest();
+
+//oServer.State = new AvailableServerState();
+//oServer.attendRequest();
+//Console.WriteLine("---END STATE---");
